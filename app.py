@@ -7,6 +7,7 @@ from tensorflow import keras
 from tensorflow.keras.applications.resnet50 import preprocess_input as resnet_preprocess_input
 #from tensorflow.keras.applications.mobilenet_v2 import preprocess_input as mobilenetv2_preprocess_input
 import logging
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 # Configurar un logger básico para Streamlit
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
