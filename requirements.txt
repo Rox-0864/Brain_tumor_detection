@@ -1,9 +1,4 @@
-tensorflow==2.8.0
-keras==2.8.0
-keras-preprocessing==1.1.2
-numpy
-pandas
-scikit-learn
-matplotlib
 streamlit
-pillow
+tensorflow
+numpy
+Pillow
