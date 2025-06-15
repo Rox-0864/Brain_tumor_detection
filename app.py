@@ -21,7 +21,7 @@ st.set_page_config(
 # --- CONSTANTES ---
 # IMPORTANTE: ACTUALIZA ESTA RUTA A LA DE TU MEJOR MODELO GUARDADO
 # Por ejemplo: "models/resnet50_final_model_20250612_080250_final.h5"
-MODEL_FILENAME = "/home/rosy/ProyectosDL/models/resnet50model_final_model_20250614_135532_final.h5" # <<-- ¡ACTUALIZA ESTO!
+MODEL_FILENAME = "models/resnet50model_final_model_20250614_135532_final.h5" # <<-- ¡ACTUALIZA ESTO!
 IMG_SIZE = (124, 124) # Tamaño de imagen con el que entrenaste tu modelo
 CLASS_NAMES = ['Healthy', 'Tumor'] # Tus nombres de clase
 
